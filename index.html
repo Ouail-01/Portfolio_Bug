@@ -1,0 +1,236 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!--the tool bar section -->
+    <header id="welcome" class="tool-bar flex">
+        <a class="logo" href="#welcome">Welcome</a>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#portfolio">Portfolio</a>
+                </li>
+                <li>
+                    <a href="#about">About</a>
+                </li>
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+            <div class="menu-content">
+                <!-- <img class="tab-menu" src="img/Union.png" alt="Menu"> -->
+
+                <div class="burger">
+                    <div class="line"></div>
+                    <div class="line"></div>
+                    <div class="line"></div>
+                </div>
+
+                <ul id="nav-menu">
+                    <li>
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <!-- the headline section-->
+    <section class="headline">
+        <div class="intro flex">
+            <h1>Hey there. I'm Ouail</h1>
+            <h2>I'm a software developer</h2>
+        </div>
+        <div class="supporting-text flex">
+            <p> I can help you build a product, feature or website Look through some of my work and experience! If you
+                like what you see and have a project you need coded,
+                <br> don’t hestiate to contact me.
+            </p>
+        </div>
+        <!--the social section -->
+        <div class="social-media">
+            <ul class="flex">
+                <li>
+                    <a href="https://twitter.com/Ouail_Laarabi" target=”_blank”>
+                        <img src="img/twitter.png" alt="twitter_icon">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/ouail-laarabi-53203b250/" target=”_blank”>
+                        <img src="img/Linkedin icon.png" alt="linkdin_icon">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/medium.png" alt="medium_icon">
+                    </a>
+                </li>
+                <li>
+                    <a href="https://github.com/Ouail-01" target=”_blank”>
+                        <img src="img/github.png" alt="github_icon">
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="img/angellist.png" alt="angellist_icon">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="normal-button flex">
+            <a href="#portfolio">
+                <img src="img/Disabled.png" alt="Scroll_button">
+            </a>
+        </div>
+    </section>
+    <!-- The work section -->
+    <section id="portfolio" class="works-section">
+        <div class="text">
+            <h2>My Recent Works</h2>
+            <hr>
+        </div>
+        <div class="card-works">
+            
+        </div>
+    </section>
+    <!-- Popup Window -->
+
+    <section id="popup-windows" class="popup-container"> <!-- class="active" -->
+        
+
+    </section>
+    <!-- About me section -->
+    <section id="about" class="aboutme-section">
+        <div class="about-me">
+            <img class="about-imgMobile" src="img/Mask Group.png" alt="bg-img">
+            <img class="about-imgDesktop" src="Desk-img/about-img.svg" alt="bg-img">
+            <h3>About me</h3>
+            <p class="flex"> I can help you build a product, feature or website Look through some of my work and
+                experience! If you like what you see and have a project you need coded,
+                <br> don’t hestiate to contact me.
+            </p>
+            <button class="flex button-hover" type="button">
+                <a href="#">Get My Resume</a>
+            </button>
+        </div>
+        <!-- Skills section -->
+        <div class="skills">
+            <div class="skills-card">
+                <div class="icon1">
+                    <img src="img/icon1.png" alt="icon1">
+                </div>
+                <h3>Languages</h3>
+                <ul class="flex">
+                    <li>JavScript</li>
+                    <li>Ruby</li>
+                    <li>Html</li>
+                    <li>CSS</li>
+                </ul>
+            </div>
+            <div class="skills-card">
+                <div class="icon1">
+                    <img src="img/icon2.png" alt="icon2">
+                </div>
+                <h3>Frameworks</h3>
+                <ul class="flex">
+                    <li>Bootstrap</li>
+                    <li>Ruby on rails</li>
+                    <li>RSpec</li>
+                    <li>Capybara</li>
+                    <li>Selenium</li>
+                </ul>
+            </div>
+            <div class="skills-card">
+                <div class="icon1">
+                    <img src="img/icon3.png" alt="icon3">
+                </div>
+                <h3>Skills</h3>
+                <ul class="flex">
+                    <li>CodeKit</li>
+                    <li>Github</li>
+                    <li>Codepen</li>
+                    <li>Gitlab</li>
+                    <li>Terminal</li>
+                </ul>
+            </div>
+        </div>
+        
+    </section>
+    <!-- The form section -->
+    <section id="contact" class="form">
+        <div class="form1">
+            <h3>I'm always <br> interested in hearing <br> about new projects, <br> so if you'd like to <br> chat please
+                get in touch.</h3>
+            <form action="https://formspree.io/f/xyyvrwvj" id="form-contact" method="post">
+                <ul>
+                    <li>
+                        <input class="input-data" for="fname" type="text" name="fname" id="fname" placeholder="Full name" maxlength="30"
+                            required>
+                    </li>
+                    <li>
+                        <input class="input-data" for="email" type="email" name="email" id="email" placeholder="Email address" required>
+                    </li>
+                    <p class="error-display" id="error-message"></p>
+                    <li>
+                        <textarea class="input-data" name="message" id="message" cols="30" rows="10" maxlength="500" placeholder="Enter text here"
+                            required></textarea>
+                    </li>
+                    <button class="button-hover" type="submit">Get in touch</button>      
+            </form>
+        </div>
+        <div class="social2">
+            <ul class="list2">
+                <li>
+                    <a class="social2item" href="https://twitter.com/Ouail_Laarabi" target=”_blank”>
+                        <img src="img/twitter.png" alt="twitter_icon">
+                    </a>
+                </li>
+                <li>
+                    <a class="social2item" href="https://www.linkedin.com/in/ouail-laarabi-53203b250/" target=”_blank”>
+                        <img src="img/Linkedin icon.png" alt="linkdin_icon">
+                    </a>
+                </li>
+                <li>
+                    <a class="social2item" href="#">
+                        <img src="img/medium.png" alt="medium_icon">
+                    </a>
+                </li>
+                <li>
+                    <a class="social2item" href="https://github.com/Ouail-01" target=”_blank”>
+                        <img src="img/github.png" alt="github_icon">
+                    </a>
+                </li>
+                <li>
+                    <a class="social2item" href="#">
+                        <img src="img/angellist.png" alt="angellist_icon">
+                    </a>
+                </li>
+            </ul>
+            <p>Ouaillaarabi@gmail.com</p>
+        </div>
+    </section>
+    <!-- Desktop img -->
+    <div class="desktop-bg">
+        <img class="bg-1 absolute" src="Desk-img/bgimg-1.png" alt="Desktop-img1">
+        <img class="bg-2 absolute" src="Desk-img/bg-img2.png" alt="Desktop-img2">
+        <img class="bg-3 absolute" src="Desk-img/bgimg-3.png" alt="Desktop-img3">
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>
